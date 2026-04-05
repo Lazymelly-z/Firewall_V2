@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Firewall_V2.vcxproj" Id="116fc6a6-6a7d-4a30-b49c-8c58a40f73b9" />
+</Solution>
