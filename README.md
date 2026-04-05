@@ -60,3 +60,18 @@ Press `Ctrl+Shift+B` in Visual Studio.
 **Option A** — Right-click Visual Studio → Run as administrator, then press F5.
 
 **Option B** — Build the project, then right-click `Firewall_V1.exe` in `x64\Debug\` and choose Run as administrator.
+
+
+## Project structure
+
+```
+Firewall_V1/
+├── Firewall_V1.cpp     # Main source file — all firewall logic
+├── README.md           # This file
+└── x64/
+    └── Debug/
+        ├── Firewall_V1.exe
+        ├── WinDivert.dll       # Must be copied here manually
+        └── WinDivert64.sys     # Must be copied here manually
+```
+
