@@ -240,10 +240,9 @@ Action RuleChecker(Zone SrcZone, Zone DstZone, UINT16 DstPort, UINT8 Protocol, s
 			cout << "{Zone " << ZoneStr(SrcZone) << "-->" << ZoneStr(DstZone) << "}" << r.Description << "Port = " << DstPort << endl;
 			return r.Action;
 		}
-
-		RuleMatched = "No Match";
-		return Action::PASS; // Default action 
 	}
+	RuleMatched = "No Match";
+	return Action::PASS; // Default action 
 }
 
 //---------------------------------------------//
