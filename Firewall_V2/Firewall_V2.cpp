@@ -223,7 +223,7 @@ vector <Rule> Rules = {
 	{Zone::LOCAL, Zone::PUBLIC, 0, 0, Action::PASS, "Allow sending everything out"},
 	{Zone::PUBLIC, Zone::LOCAL, 80, 6, Action::BLOCK, "Block HTTP"},
 	{Zone::PUBLIC, Zone::LOCAL, 22, 6, Action::BLOCK, "Block SSH"},
-	{Zone::PUBLIC, Zone::LOCAL, 3386, 6, Action::BLOCK, "Block RDP"},
+	{Zone::PUBLIC, Zone::LOCAL, 3389, 6, Action::BLOCK, "Block RDP"},
 	{Zone::PUBLIC, Zone::LOCAL, 80, 6, Action::BLOCK, "Block HTTP"},
 	{Zone::LOCAL, Zone::LOCAL, 0, 0, Action::PASS, "Allow sending everything out"}
 };
